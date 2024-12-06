@@ -1,10 +1,16 @@
 import 'package:anime_library_app/src/public/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
+/// Main function to run the app
 void main() {
   runApp(const MyApp());
 }
 
+/// Main app widget
+/// 
+/// This widget is the root of the application.
+/// 
+/// Gonzalo Quedena
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

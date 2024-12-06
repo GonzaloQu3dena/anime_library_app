@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 
+/// Block Cover Widget
+/// 
+/// This widget is used to display a block cover with an image, 
+/// title and subtitle. This widget is used in the library screen.
+/// 
+/// Gonzalo Quedena
 class BlockCoverWidget extends StatelessWidget {
   final String image;
   final String title;
   final String subtitle;
   final double widthScreen;
-
+  
   const BlockCoverWidget(
       {super.key,
       required this.image,
@@ -13,6 +19,9 @@ class BlockCoverWidget extends StatelessWidget {
       required this.subtitle,
       required this.widthScreen});
 
+  /// Build method
+  /// 
+  /// This method is used to build the widget.
   @override
   Widget build(BuildContext context) {
     return Column(

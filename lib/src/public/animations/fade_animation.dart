@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// Fade animation
+/// 
+/// This animation fades in or out a widget.
+/// 
+/// Gonzalo Quedena
 class FadeAnimation extends StatelessWidget {
   const FadeAnimation(
       {super.key,
@@ -19,6 +24,9 @@ class FadeAnimation extends StatelessWidget {
   final Curve curve;
   final Widget child;
 
+  /// Build method
+  /// 
+  /// This method builds the widget with the animation.
   @override
   Widget build(BuildContext context) {
     return TweenAnimationBuilder<double>(

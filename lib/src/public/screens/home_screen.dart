@@ -1,9 +1,17 @@
 import 'package:anime_library_app/src/library/widgets/header_widget.dart';
 import 'package:flutter/material.dart';
 
+/// Home screen widget
+/// 
+/// This widget is the main screen of the application.
+/// 
+/// Gonzalo Quedena
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
+  /// Build method
+  /// 
+  /// This method is used to build the widget from the given context.
   @override
   Widget build(BuildContext context) {
     return const Scaffold(

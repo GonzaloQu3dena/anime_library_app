@@ -2,6 +2,12 @@ import 'package:anime_library_app/src/library/screens/detail_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+/// Block Character Widget
+///
+/// This widget is used to display a block of character in
+/// the list of characters.
+///
+/// Gonzalo Quedena
 class BlockCharacterWidget extends StatelessWidget {
   final String name;
   final int color;
@@ -13,6 +19,9 @@ class BlockCharacterWidget extends StatelessWidget {
       required this.color,
       required this.image});
 
+  /// Build method
+  ///
+  /// This method is used to build the widget.
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

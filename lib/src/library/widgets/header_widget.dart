@@ -1,19 +1,33 @@
 import 'package:flutter/material.dart';
 
+/// Header widget for the app
+/// 
+/// This widget is used to display the header of the app.
+/// 
+/// Gonzalo Quedena
 class HeaderWidget extends StatelessWidget {
   const HeaderWidget({super.key});
 
+  /// Title text style
+  /// 
+  /// This is the text style for the title of the header.
   final titleTextStyle = const TextStyle(
     color: Colors.white,
     fontWeight: FontWeight.bold,
     fontSize: 26,
   );
-
+  
+  /// Subtitle text style
+  /// 
+  /// This is the text style for the subtitle of the header.
   final subtitleTextStyle = const TextStyle(
     color: Colors.white,
     fontSize: 17,
   );
 
+  /// Build method
+  /// 
+  /// This method is used to build the widget for the header.
   @override
   Widget build(BuildContext context) {
     return Container(

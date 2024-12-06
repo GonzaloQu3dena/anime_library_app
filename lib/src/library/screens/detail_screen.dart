@@ -3,6 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:anime_library_app/src/public/animations/fade_animation.dart';
 import 'package:anime_library_app/src/public/widgets/blur_container_widget.dart';
 
+/// Detail Screen
+/// 
+/// This screen is responsible for displaying the details of the selected 
+/// character. This screen is displayed when the user clicks on a character.
+/// 
+/// Gonzalo Quedena
 class DetailScreen extends StatefulWidget {
   const DetailScreen(
       {super.key,
@@ -18,6 +24,11 @@ class DetailScreen extends StatefulWidget {
   State<DetailScreen> createState() => _DetailScreenState();
 }
 
+/// Detail Screen State
+/// 
+/// This class is responsible for managing the state of the Detail Screen.
+/// 
+/// Gonzalo Quedena
 class _DetailScreenState extends State<DetailScreen> {
   double heightScreen = 0;
 

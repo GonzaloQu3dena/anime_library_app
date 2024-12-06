@@ -2,6 +2,12 @@ import 'package:anime_library_app/src/library/widgets/block_character_widget.dar
 import 'package:anime_library_app/src/library/widgets/block_cover_widget.dart';
 import 'package:flutter/material.dart';
 
+
+/// Characters List Widget
+/// 
+/// Widget that contains the list of characters and covers.
+/// 
+/// Gonzalo Quedena
 class CharactersListWidget extends StatefulWidget {
   const CharactersListWidget({super.key});
 
@@ -9,15 +15,28 @@ class CharactersListWidget extends StatefulWidget {
   State<CharactersListWidget> createState() => _CharactersListWidgetState();
 }
 
+
+/// Characters List Widget State
+/// 
+/// State of the Characters List Widget that contains the list of characters 
+/// and covers. This state contains the list of characters and covers.
+/// 
+/// Gonzalo Quedena
 class _CharactersListWidgetState extends State<CharactersListWidget> {
   double widthScreen = 0;
 
+  /// Title Style Text
+  /// 
+  /// Style of the title text.
   final titleStyleText = const TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.bold,
     color: Colors.white,
   );
 
+  /// Build Method
+  /// 
+  /// Method that builds the widget for the Characters List Widget.
   @override
   Widget build(BuildContext context) {
     widthScreen = MediaQuery.of(context).size.width - 50;
