@@ -47,13 +47,13 @@ class HeaderWidget extends StatelessWidget {
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.black.withOpacity(.1),
                   ),
-                  child: const IconButton(
-                    icon: Icon(
+                  child: IconButton(
+                    icon: const Icon(
                       Icons.search,
                       size: 28,
                       color: Colors.white,
                     ),
-                    onPressed: null,
+                    onPressed: () => {},
                   ),
                 ),
                 const SizedBox(
@@ -64,13 +64,13 @@ class HeaderWidget extends StatelessWidget {
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.black.withOpacity(.1),
                   ),
-                  child: const IconButton(
-                    icon: Icon(
+                  child: IconButton(
+                    icon: const Icon(
                       Icons.notifications,
                       size: 28,
                       color: Colors.white,
                     ),
-                    onPressed: null,
+                    onPressed: () => {},
                   ),
                 ),
               ],
